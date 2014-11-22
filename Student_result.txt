@@ -3,6 +3,8 @@
 void data();
 void add();
 void precentage();
+int sub,math phy,chem,english;
+float per;
 void main()
 {
 printf("All function of Student Result");
@@ -10,4 +12,16 @@ data();
 add();
 precentage();
 getch();
+}
+void data()
+{
+printf("Enter the all store data in Student Result");
+printf("Enter the math");
+scanf("%d",&math);
+printf("Enter the math");
+scanf("%d",&math);
+printf("Enter the chem");
+scanf("%d",&chem);
+printf("Enter the english");
+scanf("%d",&english);
 }
