@@ -25,3 +25,9 @@ scanf("%d",&chem);
 printf("Enter the english");
 scanf("%d",&english);
 }
+void add()
+{
+sub=math+phy+chem+english;
+printf("the all Student reord");
+printf("%d",sub);
+}
