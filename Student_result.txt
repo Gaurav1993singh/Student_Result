@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+void data();
+void add();
+void precentage();
+void main()
+{
+printf("All function of Student Result");
+data();
+add();
+precentage();
+getch();
+}
