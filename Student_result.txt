@@ -31,3 +31,9 @@ sub=math+phy+chem+english;
 printf("the all Student reord");
 printf("%d",sub);
 }
+void percentage()
+{
+printf("This is the percentage");
+per=((float)sub*100)/400;
+printf("%f",per);
+}
